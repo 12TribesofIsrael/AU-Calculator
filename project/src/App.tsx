@@ -1,5 +1,8 @@
 import Calculator from './components/Calculator';
 
+// Add this for Vite env typing
+/// <reference types="vite/client" />
+
 function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
@@ -7,7 +10,7 @@ function App() {
         <div className="text-center mb-8">
           <div className="flex justify-center mb-6">
             <img 
-              src="/bestmade-logo.png" 
+              src={`${import.meta.env.BASE_URL}bestmade-logo.png`} 
               alt="BestMade SMB Logo" 
               className="h-16 w-auto"
             />
