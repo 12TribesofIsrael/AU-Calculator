@@ -1,6 +1,6 @@
 import Calculator from './components/Calculator';
 
-// Add this for Vite env typing
+// Add this for Vite env typing correct
 /// <reference types="vite/client" />
 
 function App() {
