@@ -373,7 +373,11 @@ const Calculator: React.FC = () => {
               • Card 1: $5,000 limit<br/>
               • Card 2: $10,000 limit<br/>
               • Card 3: $3,000 limit<br/>
-              <strong>Then your Current Total Available Credit = $18,000</strong>
+              <strong>Then your Current Total Available Credit = $18,000</strong><br/>
+              <br/>
+              If you use all your available credit, you have <strong>$0</strong> left and are at <strong>100% utilization</strong>.<br/>
+              <br/>
+              <em>Tip: You can check your available credit by logging into your credit card account online or by looking at your latest statement. The available credit is usually shown as the difference between your credit limit and your current balance.</em>
             </div>
           </div>
 
