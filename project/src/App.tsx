@@ -10,7 +10,7 @@ function App() {
         <div className="text-center mb-8">
           <div className="flex justify-center mb-6">
             <img 
-              src={`${import.meta.env.BASE_URL}bestmade-logo.png`} 
+              src={`${import.meta.env.BASE_URL}blue.png`} 
               alt="BestMade SMB Logo" 
               className="h-16 w-auto"
             />
