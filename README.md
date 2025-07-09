@@ -2,7 +2,7 @@
 
 A responsive, user-friendly calculator to help users determine how large of an Authorized User (AU) tradeline they need to bring their credit utilization below specific thresholds (30% standard or 10% optimal).
 
-## Features
+## Features . 
 
 - **Real-time calculations** as you type
 - **Educational content** about credit utilization impact
