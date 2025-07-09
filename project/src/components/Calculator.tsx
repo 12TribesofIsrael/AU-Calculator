@@ -126,13 +126,13 @@ const Calculator: React.FC = () => {
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-2">
                 Current Total Available Credit ($)
-                <span className="text-blue-600 cursor-help ml-1" title="The sum of all credit limits across your active revolving credit accounts (typically credit cards). This is how much credit you could use if all your cards were maxed out.">ⓘ</span>
+                <span className="text-blue-600 cursor-help ml-1" title="The sum of all credit limits across your active revolving credit accounts (typically credit cards) not spent. This is how much credit you could use if all your cards were not maxed out.">ⓘ</span>
               </label>
               <input
                 type="text"
                 value={currentCredit}
                 onChange={(e) => setCurrentCredit(formatNumber(e.target.value))}
-                placeholder="e.g., 18,000 (Card 1: $5,000 + Card 2: $10,000 + Card 3: $3,000)"
+                placeholder="e.g., $0 (Card 1: $5,000 + Card 2: $10,000 + Card 3: $3,000)"
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
               />
             </div>
