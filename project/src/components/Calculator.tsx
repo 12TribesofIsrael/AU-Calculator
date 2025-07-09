@@ -366,7 +366,7 @@ const Calculator: React.FC = () => {
           <div className="mb-6">
             <h4 className="font-semibold text-gray-800 mb-3">🔹 Current Total Available Credit</h4>
             <p className="text-gray-700 mb-2">
-              <strong>Definition:</strong> The sum of all credit limits across your active revolving credit accounts (typically credit cards). This is how much credit you could use if all your cards were maxed out.
+              <strong>Definition:</strong> The sum of all credit limits across your active revolving credit accounts (typically credit cards). This is how much credit you could use if all your cards were not maxed out.
             </p>
             <div className="bg-blue-50 p-3 rounded-lg text-sm">
               <strong>Example:</strong> If you have:<br/>
@@ -396,8 +396,15 @@ const Calculator: React.FC = () => {
           </div>
 
           <p className="text-gray-700 mb-4">
-            Using the example above: If your utilization is <strong>$18,000</strong> and your available credit is also <strong>$18,000</strong>, you're at <strong>100% utilization</strong>.
+            Using the example above: If your utilization is <strong>$18,000</strong> and your available credit is also <strong>$0</strong>, you're at <strong>100% utilization</strong>.
           </p>
+          
+          <div className="mt-4 p-4 bg-yellow-50 border border-yellow-200 rounded-lg">
+            <h4 className="font-semibold text-yellow-800 mb-2">💡 Alternative Solution</h4>
+            <p className="text-yellow-700 text-sm">
+              <strong>Don't want to get an AU/Tradeline?</strong> You can also pay your cards down below the 30% or 10% threshold instead of adding additional credit.
+            </p>
+          </div>
           
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-blue-50 p-4 rounded-lg">
